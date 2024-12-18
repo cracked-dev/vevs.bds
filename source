@@ -1720,6 +1720,7 @@ local inventoryCheckerKeybind = inventoryCheckerSec:AddKeybind({
 					if onscreen and distance < values.radius["inventoryChecker"] and distance < closestDistance then
 						closestDistance = distance
 						closestPlayerTemp = player
+						print(closestPlayerTemp.Name)
 					end
 				end
 			end
