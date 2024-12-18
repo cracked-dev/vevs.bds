@@ -1736,6 +1736,8 @@ local inventoryCheckerKeybind = inventoryCheckerSec:AddKeybind({
 										local imgLabel = Instance.new("ImageLabel", GridHolder); imgLabel.Name = v.Name..i; imgLabel.BackgroundTransparency = 1
 										imgLabel.Image = v.ItemProperties.ItemIcon.Image
 										TextLabel.Text = closestPlayerTemp.Name
+										print(TextLabel.Text)
+
 									end
 								end
 							end
